@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { ArrowUp } from "lucide-react";
 import NavBar from "@/components/navbar";
-// import Footer from "@/components/footer";
+import Footer from "@/components/footer";
 
 export default function DefaultLayout() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -38,7 +38,7 @@ export default function DefaultLayout() {
           <ArrowUp className="w-6 h-6" />
         </button>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
