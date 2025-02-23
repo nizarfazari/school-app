@@ -1,9 +1,9 @@
 // src/pages/Layout.jsx
 import { Outlet } from "react-router-dom";
-import NavBar from "../components/navbar";
-import Footer from "../components/Footer";
 import { useEffect, useState } from "react";
 import { ArrowUp } from "lucide-react";
+import NavBar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 export default function DefaultLayout() {
   const [showScrollTop, setShowScrollTop] = useState(false);
